@@ -1,4 +1,4 @@
-export const generateNumber = () => {
+const generateNumber = () => {
     const code = [];
 
     for (let index = 0; index < 4; index++) {
@@ -7,3 +7,5 @@ export const generateNumber = () => {
 
     return parseInt(code.join(""));
 };
+
+module.exports = generateNumber;
